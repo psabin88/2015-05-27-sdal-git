@@ -5,3 +5,10 @@ f_to_k <- function(temp){
 
 
 f_to_k(32)	
+
+k_to_c <- function(temp){
+	return(temp-273.15)
+}
+k_to_c(273.15)
+
+f_to_k(k_to_c(48))
